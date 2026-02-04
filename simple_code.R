@@ -3,9 +3,10 @@ affiliation <- "University of Ibaadan"
 favorite_gene <- "lacZ"
 organism <- "Escherichia coli"
 
-cat(
+message <- pasteO(
   "Hi, my name is", name,
   ", a researcher at the", affiliation,
   ", My favorite gene is", favorite_gene,
-  "in", organism,"."
-)
+  "in", organism)
+print(message)
+
